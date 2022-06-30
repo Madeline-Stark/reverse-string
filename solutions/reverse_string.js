@@ -1,6 +1,6 @@
 function reverseString(str) {
   let reversed = "";
-
+  console.log(str)
   for (let i = str.length - 1; i > -1; --i) {
     reversed = reversed + str[i];
   }
